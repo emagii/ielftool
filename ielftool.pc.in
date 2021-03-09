@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+Name: ielftool
+URL: https://www.github.com/emagii/ielftool
+Description: <TBD>
+Version: @IELFTOOL_VERSION@
+Libs:	-L${libdir} -lielftool
+Libs.private: @IELFTOOL_LIBS@
+Cflags: -I${includedir}
