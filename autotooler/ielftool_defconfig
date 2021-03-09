@@ -1,0 +1,79 @@
+#
+# Automatically generated make config: don't edit
+# Tue Mar  9 09:10:07 2021
+#
+HAVE_DOT_CONFIG=y
+CONFIG_PROJECT="ielftool"
+TARGET_PLATFORM_BEAGLEBONE=y
+TARGET_PLATFORM_MT7620=y
+TARGET_PLATFORM_PC=y
+TARGET_PLATFORM_RASPBERRYPI=y
+CONFIG_SRC_URI_HOST="https://www.github.com/emagii"
+CONFIG_SRC_URI_REPO=""
+CONFIG_WORKDIR="${HOME}/projects/autotooler"
+CONFIG_PROJECT_TYPE="library"
+# CONFIG_APP is not set
+CONFIG_SHARED_LIB=y
+# CONFIG_STATIC_LIB is not set
+CONFIG_LIBRARY=y
+
+#
+# Library Setup
+#
+CONFIG_LIBRARY_NAME="ielftool"
+CONFIG_LIBRARY_VERSION="1.0"
+CONFIG_LIBRARY_INSTALLDIR=""
+# CONFIG_LIBRARY_UNIT_TEST is not set
+CONFIG_COPYRIGHT_DATE="2017"
+CONFIG_AUTHOR="Ulf Samuelsson"
+CONFIG_AUTHOR_EMAIL="ulf@emagii.com"
+CONFIG_HOMEPAGE="http://www.emagii.com/"
+CONFIG_AC_PRERQ="2.59"
+CONFIG_AC_CONFIG_HEADER="src/include/config.h"
+CONFIG_AC_CONFIG_MACRO_DIR="m4"
+CONFIG_AM_INIT_AUTOMAKE="1.10 -Wall no-define"
+CONFIG_SRCDIR="src"
+
+#
+# Linker Libraries
+#
+# CONFIG_BOOST is not set
+# CONFIG_CURL is not set
+# CONFIG_OPENSSL is not set
+# CONFIG_PTHREAD is not set
+# CONFIG_CURLPP is not set
+
+#
+# Check Libraries
+#
+
+#
+# Check dl
+#
+# CONFIG_LIB_DL_DLOPEN is not set
+
+#
+# Check nsl
+#
+# CONFIG_LIB_NSL_GETHOSTBYNAME is not set
+
+#
+# Check socket
+#
+# CONFIG_LIB_SOCKET_SOCKET is not set
+
+#
+# Options
+#
+
+#
+# OS Options
+#
+# CONFIG_OS_ANDROID is not set
+# CONFIG_OS_IOS is not set
+CONFIG_OS_LINUX=y
+# CONFIG_OS_MAC_X is not set
+# CONFIG_OS_WINDOWS is not set
+# CONFIG_OS_OTHER is not set
+# CONFIG_DEBUG is not set
+# CONFIG_EXAMPLES is not set
